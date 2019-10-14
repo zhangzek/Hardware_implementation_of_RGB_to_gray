@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_picture_512x512_rgb2gray.srcs/sources_1/ip/picture_512x512_b/sim/picture_512x512_b.v" \
+"../../../../project_picture_512x512_rgb2gray.srcs/sources_1/ip/picture_512x512_g/sim/picture_512x512_g.v" \
+"../../../../project_picture_512x512_rgb2gray.srcs/sources_1/ip/picture_512x512_r/sim/picture_512x512_r.v" \
+"../../../../../../verilog_pro/Project Module/rgb2gray/512x512_pic/addr.v" \
+"../../../../../../verilog_pro/Project Module/rgb2gray/512x512_pic/rgb2gray.v" \
+"../../../../../../verilog_pro/Project Module/rgb2gray/512x512_pic/top.v" \
+"../../../../../../verilog_pro/Project Module/rgb2gray/512x512_pic/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

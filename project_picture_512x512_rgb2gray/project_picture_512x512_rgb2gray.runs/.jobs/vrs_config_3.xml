@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="picture_512x512_b_synth_1" LaunchDir="D:/Project/vivado_pro/project_picture_512x512_rgb2gray/project_picture_512x512_rgb2gray.runs/picture_512x512_b_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

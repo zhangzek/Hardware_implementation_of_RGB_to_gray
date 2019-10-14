@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="picture_512x512_g_synth_1" LaunchPart="xc7vx485tffg1157-1" LaunchTime="1571016681">
+  <File Type="PA-TCL" Name="picture_512x512_g.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="picture_512x512_g_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="picture_512x512_g_reports.tcl"/>
+  <File Type="RDS-RDS" Name="picture_512x512_g.vds"/>
+  <File Type="RDS-UTIL" Name="picture_512x512_g_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="picture_512x512_g_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="picture_512x512_g.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="picture_512x512_g_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="picture_512x512_g_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/picture_512x512_g">
+    <File Path="$PSRCDIR/sources_1/ip/picture_512x512_g/picture_512x512_g.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="picture_512x512_g"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/picture_512x512_g">
+    <File Path="$PSRCDIR/sources_1/ip/picture_512x512_g/picture_512x512_g.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="picture_512x512_g"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

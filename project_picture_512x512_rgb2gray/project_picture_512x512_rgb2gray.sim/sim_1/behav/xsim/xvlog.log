@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/vivado_pro/project_picture_512x512_rgb2gray/project_picture_512x512_rgb2gray.srcs/sources_1/ip/picture_512x512_b/sim/picture_512x512_b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module picture_512x512_b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/vivado_pro/project_picture_512x512_rgb2gray/project_picture_512x512_rgb2gray.srcs/sources_1/ip/picture_512x512_g/sim/picture_512x512_g.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module picture_512x512_g
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/vivado_pro/project_picture_512x512_rgb2gray/project_picture_512x512_rgb2gray.srcs/sources_1/ip/picture_512x512_r/sim/picture_512x512_r.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module picture_512x512_r
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/verilog_pro/Project Module/rgb2gray/512x512_pic/addr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/verilog_pro/Project Module/rgb2gray/512x512_pic/rgb2gray.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rgb2gray
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/verilog_pro/Project Module/rgb2gray/512x512_pic/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/verilog_pro/Project Module/rgb2gray/512x512_pic/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
